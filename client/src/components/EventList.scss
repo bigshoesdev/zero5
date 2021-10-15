@@ -1,0 +1,33 @@
+.eventList {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .eventItem {
+    width: 30%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    .ant-card-body {
+      padding: 10px;
+      display: flex;
+      flex-direction: row;
+
+      .eventImage {
+        width: 50%;
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .eventText {
+        margin-left: 5%;
+        width: 45%;
+      }
+    }
+  }
+}
